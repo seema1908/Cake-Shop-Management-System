@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AaipAppa Cake Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>AaipAppa Cake Shop</h1>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <span>Chocolate Cake</span>
+                    <button id="btn1" onclick="addToOrder('Chocolate Cake', 150)">Add to Order (Rs: 150)</button>
+                </li>
+                <li>
+                    <span>Dark Chocolate Cream Cake</span>
+                    <button id="btn2" onclick="addToOrder('Dark Chocolate Cream Cake', 200)">Add to Order (Rs:
+                        200)</button>
+                </li>
+                <li>
+                    <span>Strawberry Cake </span>
+                    <button id="btn3" onclick="addToOrder('Strawberry Cake ', 180)">Add to Order (Rs: 180)</button>
+                </li>
+                <li>
+                    <span>Rasmalai Cake</span>
+                    <button id="btn4" onclick="addToOrder('Rasmalai Cake', 220)">Add to Order (Rs: 220)</button>
+                </li>
+                <li>
+                    <span>Cheese Cake</span>
+                    <button id="btn5" onclick="addToOrder('Cheese Cake', 250)">Add to Order (Rs: 250)</button>
+                </li>
+                <li>
+                    <span>Vanilla Cake</span>
+                    <button id="btn6" onclick="addToOrder('Vanilla Cake', 120)">Add to Order (Rs: 120)</button>
+                </li>
+                <li>
+                    <span>Red Velvet Cake</span>
+                    <button onclick="addToOrder('Red Velvet Cake', 200)">Add to Order (Rs: 200)</button>
+                </li>
+            </ul>
+        </section>
+        <section id="order">
+            <h2>Your Order</h2>
+            <ul id="orderList"></ul>
+            <p>Total: Rs: <span id="totalPrice">0</span></p>
+            <button id="od_btn" onclick="placeOrder()">Place Order</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

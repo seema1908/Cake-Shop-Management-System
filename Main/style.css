@@ -1,0 +1,99 @@
+/* import-font-url */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Righteous&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Mate+SC&family=Satisfy&display=swap');
+body{
+    background-image: url(./Images/chocolate-blute.jpg);
+    background-color: #faebd7;
+    background-size: cover;
+
+    /* text */
+    text-align: center;
+
+    /* border */
+    /* border: 2px solid hotpink; */
+
+    /* padding */
+    padding: 150px;
+
+    /* Flex-Box */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.h1{
+    /* font */
+    font-weight: 200;
+    font-family: "Righteous", sans-serif;
+    font-size: 50px; 
+
+    /* text_color */
+    color: rgb(9, 201, 226);
+    text-shadow: 2px 2px 5px black;
+       /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.para1{
+    /* import_font */
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    color: rgb(233, 214, 233);
+
+    /* spacing */
+    word-spacing: 1px;
+}
+.para2{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    color: rgb(134, 169, 235);
+
+    /* spacing */
+    word-spacing: 1px;
+}
+
+
+#btn1{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #24a0ed;
+    font-family: "Mate SC", serif;
+}
+#btn2{
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #24a0ed;
+    font-family: "Mate SC", serif;
+    
+}
+
+.btn1:hover{
+    background-color: #1d344a;
+    color: white;
+}
+.btn2:hover{
+    background-color: #1d344a;
+    color: white;
+}
+
+.paraNotes{
+    color: red;
+    font-family: "Satisfy", cursive;
+    word-spacing: 1px;
+}
+
